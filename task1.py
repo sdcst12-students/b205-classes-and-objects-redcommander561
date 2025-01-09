@@ -13,7 +13,7 @@ class rectPrism:
         
         # note you will need to specify more input parameters
         if l <= 0 or w <= 0 or h <= 0:
-            print("Error: Dimensions must be positive numbers.")
+            print("Dimensions must be positive numbers.")
             self.length = self.width = self.height = None
         else:
             self.length = l
@@ -38,7 +38,7 @@ class rectPrism:
         return x
 #2(wl+hl+hw)
 
-# class instances and assertions below:
+
 
 a = rectPrism(l=10,w=2,h=5)
 assert a.volume() == 100
