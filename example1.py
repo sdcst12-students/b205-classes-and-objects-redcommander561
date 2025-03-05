@@ -27,7 +27,7 @@ class circle:
     def circumference(self):
         return math.pi * self.diameter 
     
-    def __init__(self,r=1,d=42):
+    def __init__(self,r=0,d=0):
         if r > 0:
             self.radius = r
             self.calcRadiusToDiameter()
